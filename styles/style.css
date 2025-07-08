@@ -149,3 +149,81 @@ main{
     color: #333;
     margin-bottom: 20px;
 }
+
+/* ----resume section style  */
+.resume{
+    margin-top: 100px;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+    margin-top: 80px;
+}
+
+
+.resume-ctitle{
+    color: #474747;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+.experience-title{
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.experience-sub-title{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 20px;
+}
+.experience-dis{
+    color: #757575;
+} 
+.resume hr{
+    margin: 30px 0;
+}
+.cv-btn{
+    margin-top: 30px;
+}
+.cv-btn button{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.cv-btn .svg-btn{
+    /* height: 15px; */
+    width: 40px;
+    text-align: center;
+    
+}
+
+
+/* ----footer style  */
+footer{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column{
+    width: 50%;
+}
+.footer-img img{
+    margin-left: 10px;
+    margin-top: 40px;
+    height: 30px;
+}
+footer input[type="text"], footer input[type="email"], footer textarea{
+    height: 50px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 80%;
+    padding: 10px 20px;
+    font-size: 1.2em;
+    margin-bottom: 20px;
+
+}
